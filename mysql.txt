@@ -1,0 +1,4 @@
+ps aux | grep mysqld
+cd /usr/local/mysql/bin 
+./mysqladmin -u root -p ping
+./mysql -u root  -p password1234
