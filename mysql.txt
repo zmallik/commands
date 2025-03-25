@@ -2,3 +2,25 @@ ps aux | grep mysqld
 cd /usr/local/mysql/bin 
 ./mysqladmin -u root -p ping
 ./mysql -u root  -p password1234
+
+
+
+show databases;
+
+CREATE DATABASE chat;
+
+use chat;
+show tables;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(255) UNIQUE,
+    createdTime DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modifiedTime DATETIME DEFAULT CURRENT_TIMESTAMP,
+    deleted boolean,
+    gender varchar(30),
+    dateOfBirth DATETIME,
+    lastLoggedIn DATETIME,
+    userOnline boolean
+);
