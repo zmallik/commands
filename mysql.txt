@@ -24,3 +24,8 @@ CREATE TABLE users (
     lastLoggedIn DATETIME,
     userOnline boolean
 );
+
+
+Mongo
+________________________
+mongod --dbpath /usr/local/var/mongodb  
