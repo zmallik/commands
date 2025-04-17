@@ -29,3 +29,6 @@ CREATE TABLE users (
 Mongo
 ________________________
 mongod --dbpath /usr/local/var/mongodb  
+
+--------------------------------------
+./gradlew app:dependencies > deps.txt
