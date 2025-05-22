@@ -32,3 +32,4 @@ mongod --dbpath /usr/local/var/mongodb
 
 --------------------------------------
 ./gradlew app:dependencies > deps.txt
+./gradlew accounting-service:dependencies > as.txt 
