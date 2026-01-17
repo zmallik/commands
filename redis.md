@@ -1,4 +1,6 @@
 
+
+
 The default configuration file has been copied to:
   `/opt/homebrew/etc/redis.conf`
 
@@ -12,3 +14,7 @@ connct to redis
 
 To stop the service:
 > redis-cli shutdown
+
+
+
+[documentation](https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/homebrew/)
