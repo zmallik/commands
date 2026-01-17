@@ -1,4 +1,3 @@
-Redis Open Source has been successfully installed!
 
 The default configuration file has been copied to:
   `/opt/homebrew/etc/redis.conf`
